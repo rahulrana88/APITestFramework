@@ -1,0 +1,19 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "mocha-simple-html-reporter": "^1.0.1",
+    "mochawesome": "^2.3.0",
+    "request": "^2.81.0",
+    "should": "^11.2.1"
+  }
+}
